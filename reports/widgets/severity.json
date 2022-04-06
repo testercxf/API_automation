@@ -1,0 +1,211 @@
+[ {
+  "uid" : "e049047f804359a3",
+  "name" : "创建模块样式",
+  "time" : {
+    "start" : 1649239383475,
+    "stop" : 1649239383985,
+    "duration" : 510
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "22ce605ee82e2aa2",
+  "name" : "模块列表",
+  "time" : {
+    "start" : 1649239381740,
+    "stop" : 1649239381844,
+    "duration" : 104
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3a5baa63233a2761",
+  "name" : "获取活动列表",
+  "time" : {
+    "start" : 1649239380899,
+    "stop" : 1649239381023,
+    "duration" : 124
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ab5e3022f84c35fd",
+  "name" : "更新模块样式",
+  "time" : {
+    "start" : 1649239383987,
+    "stop" : 1649239384513,
+    "duration" : 526
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1a558c82c88dbeed",
+  "name" : "创建模块",
+  "time" : {
+    "start" : 1649239381506,
+    "stop" : 1649239381622,
+    "duration" : 116
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d75dd4a9db77f23c",
+  "name" : "活动详情",
+  "time" : {
+    "start" : 1649239384802,
+    "stop" : 1649239384907,
+    "duration" : 105
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "29ce9dee7c123878",
+  "name" : "创建模块内容",
+  "time" : {
+    "start" : 1649239382081,
+    "stop" : 1649239383087,
+    "duration" : 1006
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c46f41c28066b577",
+  "name" : "创建模块",
+  "time" : {
+    "start" : 1649239381142,
+    "stop" : 1649239381256,
+    "duration" : 114
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c3b35873d46ad570",
+  "name" : "删除模块",
+  "time" : {
+    "start" : 1649239381960,
+    "stop" : 1649239382078,
+    "duration" : 118
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "892dbb31ae6c2ec9",
+  "name" : "创建模块",
+  "time" : {
+    "start" : 1649239381624,
+    "stop" : 1649239381738,
+    "duration" : 114
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dac773fb5278f50d",
+  "name" : "查询模块内容列表",
+  "time" : {
+    "start" : 1649239383090,
+    "stop" : 1649239383184,
+    "duration" : 94
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e546f17f8510f82f",
+  "name" : "创建模块",
+  "time" : {
+    "start" : 1649239381258,
+    "stop" : 1649239381385,
+    "duration" : 127
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "64501eee4d2eee14",
+  "name" : "创建模块",
+  "time" : {
+    "start" : 1649239381387,
+    "stop" : 1649239381503,
+    "duration" : 116
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "59f4a9518b183532",
+  "name" : "查询模块内容",
+  "time" : {
+    "start" : 1649239383186,
+    "stop" : 1649239383283,
+    "duration" : 97
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6d1319417ef8ae9b",
+  "name" : "查询单个活动信息",
+  "time" : {
+    "start" : 1649239381025,
+    "stop" : 1649239381140,
+    "duration" : 115
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "42346b7e85fc2943",
+  "name" : "更改活动状态",
+  "time" : {
+    "start" : 1649239385182,
+    "stop" : 1649239385281,
+    "duration" : 99
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e25ddabc81153fdd",
+  "name" : "获取活动地址二维码",
+  "time" : {
+    "start" : 1649239384909,
+    "stop" : 1649239385179,
+    "duration" : 270
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d0c04b3f2ac5e7b5",
+  "name" : "更新活动",
+  "time" : {
+    "start" : 1649239384618,
+    "stop" : 1649239384800,
+    "duration" : 182
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "366d4794f0e392c6",
+  "name" : "更新模块",
+  "time" : {
+    "start" : 1649239381846,
+    "stop" : 1649239381958,
+    "duration" : 112
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7d906c8a1f9280b",
+  "name" : "查询当个模块信息",
+  "time" : {
+    "start" : 1649239384515,
+    "stop" : 1649239384616,
+    "duration" : 101
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5be126316adabacd",
+  "name" : "更新模块内容",
+  "time" : {
+    "start" : 1649239383286,
+    "stop" : 1649239383472,
+    "duration" : 186
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

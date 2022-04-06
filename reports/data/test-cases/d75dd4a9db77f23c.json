@@ -1,0 +1,78 @@
+{
+  "uid" : "d75dd4a9db77f23c",
+  "name" : "活动详情",
+  "fullName" : "testcases.test_huoshan_bmy.Test_huoshan_bmy_activity#test_16activity_details",
+  "historyId" : "fdcb8cfa289144faba1a27f61acebc28",
+  "time" : {
+    "start" : 1649239384802,
+    "stop" : 1649239384907,
+    "duration" : 105
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1649239380822,
+      "stop" : 1649239380898,
+      "duration" : 76
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_huoshan_bmy"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_huoshan_bmy_activity"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-TDNA929"
+  }, {
+    "name" : "thread",
+    "value" : "22392-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_huoshan_bmy"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "args",
+    "value" : "{'name': '活动详情', 'request': {'method': 'get', 'url': '/admin/api/v2/activity_details/', 'data': 'None'}, 'validate': {'code': 100}}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d75dd4a9db77f23c.json",
+  "parameterValues" : [ "{'name': '活动详情', 'request': {'method': 'get', 'url': '/admin/api/v2/activity_details/', 'data': 'None'}, 'validate': {'code': 100}}" ]
+}

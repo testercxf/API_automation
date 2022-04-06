@@ -1,0 +1,78 @@
+{
+  "uid" : "3a5baa63233a2761",
+  "name" : "获取活动列表",
+  "fullName" : "testcases.test_huoshan_bmy.Test_huoshan_bmy_activity#test_02get_activity_list",
+  "historyId" : "b8bbcc37ff0937e88c5c7a11a2f39de7",
+  "time" : {
+    "start" : 1649239380899,
+    "stop" : 1649239381023,
+    "duration" : 124
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1649239380822,
+      "stop" : 1649239380898,
+      "duration" : 76
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_huoshan_bmy"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_huoshan_bmy_activity"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-TDNA929"
+  }, {
+    "name" : "thread",
+    "value" : "22392-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_huoshan_bmy"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "args",
+    "value" : "{'name': '获取报名页列表', 'request': {'method': 'get', 'url': '/admin/api/v2/activities', 'data': ['page=1&limit=10&title=&status=&type=2']}, 'validate': {'code': 100}}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3a5baa63233a2761.json",
+  "parameterValues" : [ "{'name': '获取报名页列表', 'request': {'method': 'get', 'url': '/admin/api/v2/activities', 'data': ['page=1&limit=10&title=&status=&type=2']}, 'validate': {'code': 100}}" ]
+}

@@ -1,0 +1,78 @@
+{
+  "uid" : "64501eee4d2eee14",
+  "name" : "创建模块",
+  "fullName" : "testcases.test_huoshan_bmy.Test_huoshan_bmy_activity#test_04create_module",
+  "historyId" : "9d8c16cc671a3decd1cec050656847f0",
+  "time" : {
+    "start" : 1649239381387,
+    "stop" : 1649239381503,
+    "duration" : 116
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1649239380822,
+      "stop" : 1649239380898,
+      "duration" : 76
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_huoshan_bmy"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_huoshan_bmy_activity"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-TDNA929"
+  }, {
+    "name" : "thread",
+    "value" : "22392-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_huoshan_bmy"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "args",
+    "value" : "{'name': '创建模块_样式8', 'request': {'method': 'post', 'url': '/admin/api/v2/modular/', 'data': {'name': '广告样式8', 'priority': 80, 'modular_type': 1, 'style_type': 8, 'show_wap': True, 'show_pc': False}}, 'validate': {'code': 100}}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "64501eee4d2eee14.json",
+  "parameterValues" : [ "{'name': '创建模块_样式8', 'request': {'method': 'post', 'url': '/admin/api/v2/modular/', 'data': {'name': '广告样式8', 'priority': 80, 'modular_type': 1, 'style_type': 8, 'show_wap': True, 'show_pc': False}}, 'validate': {'code': 100}}" ]
+}

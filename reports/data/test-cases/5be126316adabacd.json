@@ -1,0 +1,78 @@
+{
+  "uid" : "5be126316adabacd",
+  "name" : "更新模块内容",
+  "fullName" : "testcases.test_huoshan_bmy.Test_huoshan_bmy_activity#test_11update_module_content",
+  "historyId" : "8c030a910edcef36ceb0bc72ee864f4b",
+  "time" : {
+    "start" : 1649239383286,
+    "stop" : 1649239383472,
+    "duration" : 186
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1649239380822,
+      "stop" : 1649239380898,
+      "duration" : 76
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_huoshan_bmy"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_huoshan_bmy_activity"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-TDNA929"
+  }, {
+    "name" : "thread",
+    "value" : "22392-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_huoshan_bmy"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "args",
+    "value" : "{'name': '更新模块内容', 'request': {'method': 'put', 'url': '/admin/api/v2/modular_content/', 'data': {'modular_id': '$module_id_9', 'title': '轮播1', 'priority': 99, 'content_conf': {'pc_img': None, 'wap_img': 'http://sxsimg.oss-cn-hangzhou.aliyuncs.com/adminstatic_new/1646893745715_3a34c910.png', 'jump_url': None, 'jump_type': None, 'related_id': None, 'qrcode': None, 'uuids': [], 'num': 0}}}, 'validate': {'code': 100}}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5be126316adabacd.json",
+  "parameterValues" : [ "{'name': '更新模块内容', 'request': {'method': 'put', 'url': '/admin/api/v2/modular_content/', 'data': {'modular_id': '$module_id_9', 'title': '轮播1', 'priority': 99, 'content_conf': {'pc_img': None, 'wap_img': 'http://sxsimg.oss-cn-hangzhou.aliyuncs.com/adminstatic_new/1646893745715_3a34c910.png', 'jump_url': None, 'jump_type': None, 'related_id': None, 'qrcode': None, 'uuids': [], 'num': 0}}}, 'validate': {'code': 100}}" ]
+}

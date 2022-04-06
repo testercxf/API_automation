@@ -1,0 +1,362 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "获取活动列表",
+    "uid" : "3a5baa63233a2761",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1649239380899,
+      "stop" : 1649239381023,
+      "duration" : 124
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "{'name': '获取报名页列表', 'request': {'method': 'get', 'url': '/admin/api/v2/activities', 'data': ['page=1&limit=10&title=&status=&type=2']}, 'validate': {'code': 100}}" ]
+  }, {
+    "name" : "查询单个活动信息",
+    "uid" : "6d1319417ef8ae9b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1649239381025,
+      "stop" : 1649239381140,
+      "duration" : 115
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "{'name': '查询单个活动信息', 'request': {'method': 'get', 'url': '/admin/api/v2/activity/', 'data': 'None'}, 'validate': {'code': 100}}" ]
+  }, {
+    "name" : "创建模块",
+    "uid" : "c46f41c28066b577",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1649239381142,
+      "stop" : 1649239381256,
+      "duration" : 114
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "{'name': '创建模块_样式6', 'request': {'method': 'post', 'url': '/admin/api/v2/modular/', 'data': {'name': '广告样式14(视频)', 'priority': 100, 'modular_type': 1, 'style_type': 14, 'show_wap': False, 'show_pc': False}}, 'validate': {'code': 100}}" ]
+  }, {
+    "name" : "创建模块",
+    "uid" : "e546f17f8510f82f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1649239381258,
+      "stop" : 1649239381385,
+      "duration" : 127
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "{'name': '创建模块_样式7', 'request': {'method': 'post', 'url': '/admin/api/v2/modular/', 'data': {'name': '广告样式7', 'priority': 90, 'modular_type': 1, 'style_type': 7, 'show_wap': True, 'show_pc': False}}, 'validate': {'code': 100}}" ]
+  }, {
+    "name" : "创建模块",
+    "uid" : "64501eee4d2eee14",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1649239381387,
+      "stop" : 1649239381503,
+      "duration" : 116
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "{'name': '创建模块_样式8', 'request': {'method': 'post', 'url': '/admin/api/v2/modular/', 'data': {'name': '广告样式8', 'priority': 80, 'modular_type': 1, 'style_type': 8, 'show_wap': True, 'show_pc': False}}, 'validate': {'code': 100}}" ]
+  }, {
+    "name" : "创建模块",
+    "uid" : "1a558c82c88dbeed",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1649239381506,
+      "stop" : 1649239381622,
+      "duration" : 116
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "{'name': '创建模块_样式9', 'request': {'method': 'post', 'url': '/admin/api/v2/modular/', 'data': {'name': '广告样式9', 'priority': 70, 'modular_type': 1, 'style_type': 9, 'show_wap': True, 'show_pc': False}}, 'validate': {'code': 100}}" ]
+  }, {
+    "name" : "创建模块",
+    "uid" : "892dbb31ae6c2ec9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1649239381624,
+      "stop" : 1649239381738,
+      "duration" : 114
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "{'name': '创建模块_样式10', 'request': {'method': 'post', 'url': '/admin/api/v2/modular/', 'data': {'name': '广告样式10', 'priority': 50, 'modular_type': 1, 'style_type': 10, 'show_wap': True, 'show_pc': False}}, 'validate': {'code': 100}}" ]
+  }, {
+    "name" : "模块列表",
+    "uid" : "22ce605ee82e2aa2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1649239381740,
+      "stop" : 1649239381844,
+      "duration" : 104
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "{'name': '模块列表', 'request': {'method': 'get', 'url': '/admin/api/v2/modular_list/', 'data': 'None'}, 'validate': {'code': 100}}" ]
+  }, {
+    "name" : "更新模块",
+    "uid" : "366d4794f0e392c6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1649239381846,
+      "stop" : 1649239381958,
+      "duration" : 112
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "{'name': '更新模块', 'request': {'method': 'put', 'url': '/admin/api/v2/modular', 'data': {'id': None, 'name': '广告样式6', 'priority': 99, 'style_type': 6, 'show_pc': True, 'show_wap': True}}, 'validate': {'code': 100}}" ]
+  }, {
+    "name" : "删除模块",
+    "uid" : "c3b35873d46ad570",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1649239381960,
+      "stop" : 1649239382078,
+      "duration" : 118
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "{'name': '删除模块', 'request': {'method': 'delete', 'url': '/admin/api/v2/modular/', 'data': 'None'}, 'validate': {'code': 100}}" ]
+  }, {
+    "name" : "创建模块内容",
+    "uid" : "29ce9dee7c123878",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1649239382081,
+      "stop" : 1649239383087,
+      "duration" : 1006
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "{'name': '创建模块内容', 'request': {'method': 'post', 'url': '/admin/api/v2/modular_content', 'data': [{'modular_id': '$module_id_6', 'title': 'tab1', 'priority': 100, 'content_conf': {'pc_img': None, 'wap_img': None, 'jump_url': 'https://www.baidu.com', 'jump_type': 'out', 'related_id': None, 'qrcode': None, 'uuids': None, 'num': 0}}, {'modular_id': '$module_id_7', 'title': '轮播1', 'priority': 100, 'content_conf': {'pc_img': None, 'wap_img': 'http://sxsimg.oss-cn-hangzhou.aliyuncs.com/adminstatic_new/1646893409537_803d3649.png', 'jump_url': None, 'jump_type': None, 'related_id': None, 'qrcode': None, 'uuids': [], 'num': 0}}, {'modular_id': '$module_id_7', 'title': '轮播2', 'priority': 90, 'content_conf': {'pc_img': None, 'wap_img': 'http://sxsimg.oss-cn-hangzhou.aliyuncs.com/adminstatic_new/1646893552695_401bcc5c.png', 'jump_url': None, 'jump_type': None, 'related_id': None, 'qrcode': None, 'uuids': [], 'num': 0}}, {'modular_id': '$module_id_8', 'title': '轮播1', 'priority': 100, 'content_conf': {'pc_img': None, 'wap_img': 'http://sxsimg.oss-cn-hangzhou.aliyuncs.com/adminstatic_new/1646893641394_c75bfe1b.png', 'jump_url': None, 'jump_type': None, 'related_id': None, 'qrcode': None, 'uuids': [], 'num': 0}}, {'modular_id': '$module_id_8', 'title': '轮播2', 'priority': 90, 'content_conf': {'pc_img': None, 'wap_img': 'http://sxsimg.oss-cn-hangzhou.aliyuncs.com/adminstatic_new/1646893683039_60c9eb3e.png', 'jump_url': None, 'jump_type': None, 'related_id': None, 'qrcode': None, 'uuids': [], 'num': 0}}, {'modular_id': '$module_id_9', 'title': 'tab1', 'priority': 100, 'content_conf': {'pc_img': None, 'wap_img': 'http://sxsimg.oss-cn-hangzhou.aliyuncs.com/adminstatic_new/1646893745715_3a34c910.png', 'jump_url': None, 'jump_type': None, 'related_id': None, 'qrcode': None, 'uuids': [], 'num': 0}}, {'modular_id': '$module_id_9', 'title': '轮播2', 'priority': 90, 'content_conf': {'pc_img': None, 'wap_img': 'http://sxsimg.oss-cn-hangzhou.aliyuncs.com/adminstatic_new/1646893768988_49e82555.png', 'jump_url': None, 'jump_type': None, 'related_id': None, 'qrcode': None, 'uuids': [], 'num': 0}}, {'modular_id': '$module_id_9', 'title': '轮播3', 'priority': 80, 'content_conf': {'pc_img': None, 'wap_img': 'http://sxsimg.oss-cn-hangzhou.aliyuncs.com/adminstatic_new/1646893796425_8d23171e.png', 'jump_url': None, 'jump_type': None, 'related_id': None, 'qrcode': None, 'uuids': [], 'num': 0}}]}, 'validate': {'code': 100}}" ]
+  }, {
+    "name" : "查询模块内容列表",
+    "uid" : "dac773fb5278f50d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1649239383090,
+      "stop" : 1649239383184,
+      "duration" : 94
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "{'name': '查询模块内容列表', 'request': {'method': 'get', 'url': '/admin/api/v2/modular_content_list/', 'data': 'None'}, 'validate': {'code': 100}}" ]
+  }, {
+    "name" : "查询模块内容",
+    "uid" : "59f4a9518b183532",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1649239383186,
+      "stop" : 1649239383283,
+      "duration" : 97
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "{'name': '查询模块内容', 'request': {'method': 'get', 'url': '/admin/api/v2/modular_content/', 'data': 'None'}, 'validate': {'code': 100}}" ]
+  }, {
+    "name" : "更新模块内容",
+    "uid" : "5be126316adabacd",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1649239383286,
+      "stop" : 1649239383472,
+      "duration" : 186
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "{'name': '更新模块内容', 'request': {'method': 'put', 'url': '/admin/api/v2/modular_content/', 'data': {'modular_id': '$module_id_9', 'title': '轮播1', 'priority': 99, 'content_conf': {'pc_img': None, 'wap_img': 'http://sxsimg.oss-cn-hangzhou.aliyuncs.com/adminstatic_new/1646893745715_3a34c910.png', 'jump_url': None, 'jump_type': None, 'related_id': None, 'qrcode': None, 'uuids': [], 'num': 0}}}, 'validate': {'code': 100}}" ]
+  }, {
+    "name" : "创建模块样式",
+    "uid" : "e049047f804359a3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1649239383475,
+      "stop" : 1649239383985,
+      "duration" : 510
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "{'name': '创建模块样式', 'request': {'method': 'patch', 'url': '/admin/api/v2/modular', 'data': [{'id': '$module_id_6', 'style_conf': {'ad_style_conf': {'pc_img': '', 'wap_img': 'http://sxsimg.oss-cn-hangzhou.aliyuncs.com/adminstatic_new/1648620467004_787c26c5.png', 'auto_rotation': False, 'rotation_color_def': '', 'rotation_color_select': '', 'tab_back_color': '', 'tab_color_select': '', 'tab_color_def': ''}, 'search_conf': {'type': 0, 'classify_back_def': '', 'classify_word_def': '', 'classify_word_select': '', 'search_pc_img': '', 'search_wap_img': ''}, 'paging_conf': {'type': 0, 'page_back_def': '', 'page_back_select': '', 'page_word_def': '', 'page_word_select': '', 'pc_img_url': '', 'wap_img_url': '', 'jump_url': ''}, 'color_conf': {'btn_back_color': '', 'com_area_back_color': ''}}}, {'id': '$module_id_7', 'style_conf': {'ad_style_conf': {'pc_img': '', 'wap_img': 'http://sxsimg.oss-cn-hangzhou.aliyuncs.com/adminstatic_new/1648620535593_f04328b9.png', 'auto_rotation': False, 'rotation_color_def': '', 'rotation_color_select': '', 'tab_back_color': '', 'tab_color_select': '#EEFF00', 'tab_color_def': '#FFFFFF'}, 'search_conf': {'type': 0, 'classify_back_def': '', 'classify_word_def': '', 'classify_word_select': '', 'search_pc_img': '', 'search_wap_img': ''}, 'paging_conf': {'type': 0, 'page_back_def': '', 'page_back_select': '', 'page_word_def': '', 'page_word_select': '', 'pc_img_url': '', 'wap_img_url': '', 'jump_url': ''}, 'color_conf': {'btn_back_color': '', 'com_area_back_color': ''}}}, {'id': '$module_id_8', 'style_conf': {'ad_style_conf': {'pc_img': '', 'wap_img': 'http://sxsimg.oss-cn-hangzhou.aliyuncs.com/adminstatic_new/1648620648001_322a03bc.png', 'auto_rotation': False, 'rotation_color_def': '', 'rotation_color_select': '', 'tab_back_color': '', 'tab_color_select': '', 'tab_color_def': ''}, 'search_conf': {'type': 0, 'classify_back_def': '', 'classify_word_def': '', 'classify_word_select': '', 'search_pc_img': '', 'search_wap_img': ''}, 'paging_conf': {'type': 0, 'page_back_def': '', 'page_back_select': '', 'page_word_def': '', 'page_word_select': '', 'pc_img_url': '', 'wap_img_url': '', 'jump_url': ''}, 'color_conf': {'btn_back_color': '', 'com_area_back_color': ''}}}, {'id': '$module_id_9', 'style_conf': {'ad_style_conf': {'pc_img': '', 'wap_img': 'http://sxsimg.oss-cn-hangzhou.aliyuncs.com/adminstatic_new/1648620686786_c90e6b63.png', 'auto_rotation': False, 'rotation_color_def': '', 'rotation_color_select': '', 'tab_back_color': '', 'tab_color_select': '', 'tab_color_def': ''}, 'search_conf': {'type': 0, 'classify_back_def': '', 'classify_word_def': '', 'classify_word_select': '', 'search_pc_img': '', 'search_wap_img': ''}, 'paging_conf': {'type': 0, 'page_back_def': '', 'page_back_select': '', 'page_word_def': '', 'page_word_select': '', 'pc_img_url': '', 'wap_img_url': '', 'jump_url': ''}, 'color_conf': {'btn_back_color': '', 'com_area_back_color': ''}}}]}, 'validate': {'code': 100}}" ]
+  }, {
+    "name" : "更新模块样式",
+    "uid" : "ab5e3022f84c35fd",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1649239383987,
+      "stop" : 1649239384513,
+      "duration" : 526
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "{'name': '更新模块样式', 'request': {'method': 'patch', 'url': '/admin/api/v2/modular', 'data': [{'id': '$module_id_6', 'style_conf': {'ad_style_conf': {'pc_img': '', 'wap_img': 'http://sxsimg.oss-cn-hangzhou.aliyuncs.com/adminstatic_new/1648620467004_787c26c5.png', 'auto_rotation': True, 'rotation_color_def': '', 'rotation_color_select': '', 'tab_back_color': '', 'tab_color_select': '', 'tab_color_def': ''}, 'search_conf': {'type': 0, 'classify_back_def': '', 'classify_word_def': '', 'classify_word_select': '', 'search_pc_img': '', 'search_wap_img': ''}, 'paging_conf': {'type': 0, 'page_back_def': '', 'page_back_select': '', 'page_word_def': '', 'page_word_select': '', 'pc_img_url': '', 'wap_img_url': '', 'jump_url': ''}, 'color_conf': {'btn_back_color': '', 'com_area_back_color': ''}}}, {'id': '$module_id_7', 'style_conf': {'ad_style_conf': {'pc_img': '', 'wap_img': 'http://sxsimg.oss-cn-hangzhou.aliyuncs.com/adminstatic_new/1648620535593_f04328b9.png', 'auto_rotation': True, 'rotation_color_def': '', 'rotation_color_select': '', 'tab_back_color': '', 'tab_color_select': '#46A3FF', 'tab_color_def': '#80FFFF'}, 'search_conf': {'type': 0, 'classify_back_def': '', 'classify_word_def': '', 'classify_word_select': '', 'search_pc_img': '', 'search_wap_img': ''}, 'paging_conf': {'type': 0, 'page_back_def': '', 'page_back_select': '', 'page_word_def': '', 'page_word_select': '', 'pc_img_url': '', 'wap_img_url': '', 'jump_url': ''}, 'color_conf': {'btn_back_color': '', 'com_area_back_color': ''}}}, {'id': '$module_id_8', 'style_conf': {'ad_style_conf': {'pc_img': '', 'wap_img': 'http://sxsimg.oss-cn-hangzhou.aliyuncs.com/adminstatic_new/1648620648001_322a03bc.png', 'auto_rotation': True, 'rotation_color_def': '', 'rotation_color_select': '', 'tab_back_color': '', 'tab_color_select': '', 'tab_color_def': ''}, 'search_conf': {'type': 0, 'classify_back_def': '', 'classify_word_def': '', 'classify_word_select': '', 'search_pc_img': '', 'search_wap_img': ''}, 'paging_conf': {'type': 0, 'page_back_def': '', 'page_back_select': '', 'page_word_def': '', 'page_word_select': '', 'pc_img_url': '', 'wap_img_url': '', 'jump_url': ''}, 'color_conf': {'btn_back_color': '', 'com_area_back_color': ''}}}, {'id': '$module_id_9', 'style_conf': {'ad_style_conf': {'pc_img': '', 'wap_img': 'http://sxsimg.oss-cn-hangzhou.aliyuncs.com/adminstatic_new/1648620686786_c90e6b63.png', 'auto_rotation': True, 'rotation_color_def': '', 'rotation_color_select': '', 'tab_back_color': '', 'tab_color_select': '', 'tab_color_def': ''}, 'search_conf': {'type': 0, 'classify_back_def': '', 'classify_word_def': '', 'classify_word_select': '', 'search_pc_img': '', 'search_wap_img': ''}, 'paging_conf': {'type': 0, 'page_back_def': '', 'page_back_select': '', 'page_word_def': '', 'page_word_select': '', 'pc_img_url': '', 'wap_img_url': '', 'jump_url': ''}, 'color_conf': {'btn_back_color': '', 'com_area_back_color': ''}}}]}, 'validate': {'code': 100}}" ]
+  }, {
+    "name" : "查询当个模块信息",
+    "uid" : "7d906c8a1f9280b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1649239384515,
+      "stop" : 1649239384616,
+      "duration" : 101
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "{'name': '查询单个模块信息', 'request': {'method': 'get', 'url': '/admin/api/v2/modular/', 'data': 'None'}, 'validate': {'code': 100}}" ]
+  }, {
+    "name" : "更新活动",
+    "uid" : "d0c04b3f2ac5e7b5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1649239384618,
+      "stop" : 1649239384800,
+      "duration" : 182
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "{'name': '更新活动', 'request': {'method': 'put', 'url': '/admin/api/v2/activity/', 'data': {'type': 2, 'title': 'test_bm_', 'extend_content': None, 'poster_img': {'pc_poster': 'http://sxsimg.oss-cn-hangzhou.aliyuncs.com/adminstatic_new/1648707358949_57760c90.jpg', 'wap_poster': 'http://sxsimg.oss-cn-hangzhou.aliyuncs.com/adminstatic_new/1645012771910_bb4d6a3e.jpg'}, 'wx_tdk': {'title': '微信标题', 'description': '微信分享', 'img': 'http://sxsimg.oss-cn-hangzhou.aliyuncs.com/adminstatic_new/1648707199997_7094e402.png'}, 'web_tdk': {'title': '标题', 'description': '描述', 'keys': '关键字'}, 'plugin': {'bottom_button': {'btn_img': 'http://sxsimg.oss-cn-hangzhou.aliyuncs.com/adminstatic_new/1648713799312_e67da7bd.png', 'jump_url': 'https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzkxMzI4ODgyOA==&action=getalbum&album_id=2067306692496687106&scene=173&from_msgid=2247512043&from_itemidx=1&count=3&nolastread=1#wechat_redirect', 'jump_type': 'out'}, 'count_down': {'end_time': '1672502399000', 'copy_writing': '距离报名结束：{time}'}, 'random_number': {'copy_writing': '已参与人数：{number}', 'step': 1, 'start_num': 8888, 'random_max': 888, 'random_min': 88}, 'top_tab': {'wap_img': 'http://sxsimg.oss-cn-hangzhou.aliyuncs.com/adminstatic_new/1648707289148_50b89744.png', 'tab_color_def': '#00FFFF', 'tab_color_select': '#2894FF', 'option': [{'module_id': '$module_id_6', 'module_name': '广告样式6', 'name': 'tab6', 'module_type': 1, 'style_type': 6}, {'module_id': '$module_id_7', 'module_name': '广告样式7', 'name': 'tab7', 'module_type': 1, 'style_type': 7}, {'module_id': '$module_id_8', 'module_name': '广告样式8', 'name': 'tab8', 'module_type': 1, 'style_type': 8}, {'module_id': '$module_id_9', 'module_name': '广告样式9', 'name': 'tab9', 'module_type': 1, 'style_type': 9}]}, 'top_notice': ['随机第一条数据', '随机第二条数据', '随机第三条数据', '随机第四条数据', '随机第五条数据', '随机第六条数据']}, 'stype': '$activity_id'}}, 'validate': {'code': 100}}" ]
+  }, {
+    "name" : "活动详情",
+    "uid" : "d75dd4a9db77f23c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1649239384802,
+      "stop" : 1649239384907,
+      "duration" : 105
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "{'name': '活动详情', 'request': {'method': 'get', 'url': '/admin/api/v2/activity_details/', 'data': 'None'}, 'validate': {'code': 100}}" ]
+  }, {
+    "name" : "获取活动地址二维码",
+    "uid" : "e25ddabc81153fdd",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1649239384909,
+      "stop" : 1649239385179,
+      "duration" : 270
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "{'name': '获取活动二维码', 'request': {'method': 'get', 'url': '/admin/api/v2/activity/qrcode/', 'data': 'None'}, 'validate': {'code': 100}}" ]
+  }, {
+    "name" : "更改活动状态",
+    "uid" : "42346b7e85fc2943",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1649239385182,
+      "stop" : 1649239385281,
+      "duration" : 99
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "{'name': '上下线活动', 'request': {'method': 'patch', 'url': '/admin/api/v2/activity/', 'data': 'None'}, 'validate': {'code': 100}}", "'/normal'" ]
+  } ]
+}

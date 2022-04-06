@@ -1,0 +1,1 @@
+HUOSHAN_HOST = "http://sit1-sxs-admin2.mshare.cn/goApi"

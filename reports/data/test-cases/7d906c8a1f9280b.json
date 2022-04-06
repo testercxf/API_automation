@@ -1,0 +1,78 @@
+{
+  "uid" : "7d906c8a1f9280b",
+  "name" : "查询当个模块信息",
+  "fullName" : "testcases.test_huoshan_bmy.Test_huoshan_bmy_activity#test_14query_a_module_info",
+  "historyId" : "08be1c43054f286ba3d6145f7d61e518",
+  "time" : {
+    "start" : 1649239384515,
+    "stop" : 1649239384616,
+    "duration" : 101
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1649239380822,
+      "stop" : 1649239380898,
+      "duration" : 76
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_huoshan_bmy"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_huoshan_bmy_activity"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-TDNA929"
+  }, {
+    "name" : "thread",
+    "value" : "22392-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_huoshan_bmy"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "args",
+    "value" : "{'name': '查询单个模块信息', 'request': {'method': 'get', 'url': '/admin/api/v2/modular/', 'data': 'None'}, 'validate': {'code': 100}}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7d906c8a1f9280b.json",
+  "parameterValues" : [ "{'name': '查询单个模块信息', 'request': {'method': 'get', 'url': '/admin/api/v2/modular/', 'data': 'None'}, 'validate': {'code': 100}}" ]
+}
