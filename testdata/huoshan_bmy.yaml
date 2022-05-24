@@ -127,7 +127,7 @@ create_module:
 #        priority: 60
 #        modular_type: 3
 #        style_type: 8
-#        show_wap: ture
+#        show_wap: false
 #        show_pc: false
 #    validate:
 #      code: *code
@@ -265,7 +265,7 @@ update_activity:
       url: /admin/api/v2/activity/
       data:
         type: 2
-        title: test_bm_
+        title: test_bm_xf
         extend_content:
         poster_img:
           pc_poster: http://sxsimg.oss-cn-hangzhou.aliyuncs.com/adminstatic_new/1648707358949_57760c90.jpg
