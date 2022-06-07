@@ -17,7 +17,7 @@ class Test_huoshan_bmy:
     # Token = "Token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZGVudGl0eSI6eyJ1c2VyX2lkIjozMCwicm9sZV9pZCI6MjYsInVzZXJfbmFtZSI6IumZiOmbquWzsCIsImZlaXNodV9vcGVuX2lkIjoib3VfMWE4NTM5MzY5ZjUwMmIzNzViOThkZDdkYTU2YjJhZjYiLCJ1dWlkIjoiMzAiLCJyb2xlIjoic3VwZXIiLCJwZXJtaXNzaW9uIjpbXX0sInR5cGUiOiJhY2Nlc3MiLCJleHAiOjE2NTIxNjE3NjJ9.1CzGEAmZy-bzSh7RUFumLXL8jjwE7gKK31OwGcV7w0U; MEIQIA_TRACK_ID=286KL0IzTUuq8tMVE0F8GnEJIeN; MEIQIA_VISIT_ID=28uo4SNriT096CuNOPjRdVtMHxe"
     host = HUOSHAN_HOST
 
-    r = str(random.randint(99,9999))
+    r = str(random.randint(99,999))
 
 
     @allure.title("创建报名页活动")
@@ -56,6 +56,7 @@ class Test_huoshan_bmy:
 
 
     @allure.title("创建模块")
+    @pytest.mark.dependency(name = 'cm')
     @pytest.mark.parametrize("args", YamlUtil().read_yaml_file("huoshan_bmy.yaml", "create_module"))
     def test_04create_module(self, args):
         print(args['name'])
@@ -67,6 +68,7 @@ class Test_huoshan_bmy:
 
 
     @allure.title("模块列表")
+    @pytest.mark.dependency(depends = ['cm'])
     @pytest.mark.parametrize("args", YamlUtil().read_yaml_file("huoshan_bmy.yaml","module_list"))
     def test_05module_list(self, args):
         print(args['name'])
